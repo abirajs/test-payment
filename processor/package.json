@@ -1,0 +1,12 @@
+{
+  "name": "processor",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "connector:post-deploy": "node scripts/post-deploy.js",  // Required
+    "connector:pre-undeploy": "node scripts/pre-undeploy.js" // Required
+  },
+  "dependencies": {
+    "@commercetools/platform-sdk": "^5.0.0"
+  }
+}
