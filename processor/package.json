@@ -7,6 +7,6 @@
     "connector:pre-undeploy": "node scripts/pre-undeploy.js" // Required
   },
   "dependencies": {
-    "@commercetools/platform-sdk": "^5.0.0"
+    "@commercetools/platform-sdk": "^8.9.0"
   }
 }
